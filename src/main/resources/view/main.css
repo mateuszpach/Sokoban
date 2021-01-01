@@ -1,0 +1,59 @@
+.intro-body {
+    -fx-background-color: #FCFAFA;
+}
+
+.font {
+    -fx-font-family: Ubuntu;
+    -fx-text-fill: #516A7B;
+}
+
+.intro-title {
+    -fx-stroke-type: outside;
+    -fx-stroke-width: 0;
+
+    -fx-text-alignment: center;
+    -fx-font-size: 16em;
+
+    -fx-text-fill: #404C4F;
+}
+
+.dialog-title {
+    -fx-stroke-type: outside;
+    -fx-stroke-width: 0;
+
+    -fx-text-alignment: center;
+    -fx-font-size: 12em;
+
+    -fx-text-fill: #404C4F;
+}
+
+.button {
+    -fx-text-alignment: center;
+    -fx-font-size: 5em;
+
+    -fx-border-color: #516A7B;
+    -fx-border-radius: 2em;
+    -fx-border-width: 2px;
+    -fx-background-radius: 2em;
+    -fx-border-insets: 0.5em;
+}
+
+.intro-button:focused {
+    -fx-background-color: #E8EDED;
+}
+
+.intro-label {
+    -fx-text-alignment: center;
+    -fx-font-size: 5em;
+    -fx-padding: 0 2em 0 2em;
+}
+
+/*----------------------------------*/
+
+.game-body {
+    -fx-background-color: #516A7B;
+}
+
+.grid-pane-box {
+    -fx-padding: 5em;
+}
