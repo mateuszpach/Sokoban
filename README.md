@@ -21,16 +21,22 @@ To read more about the original game which was an inspiration for the project vi
 - [fontawesomefx](https://bitbucket.org/Jerady/fontawesomefx/src/master/)
 
 
-## Release
-   You can download Sokoban app [here](https://github.com/mateuszpach/Sokoban/releases/tag/v1.0).
+<!--- ## Release -->
+<!---   You can download Sokoban app [here](https://github.com/mateuszpach/Sokoban/releases/tag/v1.0). -->
 
 ## Building
 1. Clone the repo.
     ```
     git clone https://github.com/mateuszpach/Sokoban
     ```
-2. Build with gradle.
+2. Build and run with gradle.
     ```
     cd Sokoban/
     ./gradlew runShadow
+    ```
+    Alternatively use shell scripts doing it for you: 
+    ```
+    cd Sokoban/
+    ./build.sh
+    ./run.sh
     ```

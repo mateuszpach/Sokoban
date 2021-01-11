@@ -52,4 +52,19 @@ public class SceneManager {
                 stage.getScene().setRoot(exitRoot);
         }
     }
+
+    public static SceneType getCurrentSceneType() {
+        Parent root = stage.getScene().getRoot();
+        if (introRoot.equals(root)) {
+            return SceneType.INTRO;
+        } else if (gameRoot.equals(root)) {
+            return SceneType.GAME;
+        } else if (winRoot.equals(root)) {
+            return SceneType.WIN;
+        } else if (exitRoot.equals(root)) {
+            return SceneType.EXIT;
+        }
+        // code never reaches this line
+        return SceneType.INTRO;
+    }
 }

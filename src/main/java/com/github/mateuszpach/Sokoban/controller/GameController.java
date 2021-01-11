@@ -38,7 +38,9 @@ public class GameController {
                     direction = Game.Direction.UP;
                     break;
                 case ESCAPE:
-                    SceneManager.changeScene(SceneManager.SceneType.EXIT);
+                    if (SceneManager.getCurrentSceneType() == SceneManager.SceneType.GAME) {
+                        SceneManager.changeScene(SceneManager.SceneType.EXIT);
+                    }
                     break;
             }
             if (direction != null) {

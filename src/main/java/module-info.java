@@ -1,4 +1,4 @@
-module GRAPH_moment {
+module Sokoban {
     requires javafx.controls;
     requires javafx.fxml;
     requires transitive javafx.graphics;
